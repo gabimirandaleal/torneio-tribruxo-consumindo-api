@@ -1,0 +1,45 @@
+.container-torneio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-torneio h1{
+    color: white;
+}
+
+.container-torneio img{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.button-tentardenovo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Slytherin-img{
+    border: 2px solid #00A421
+}
+
+.Gryffindor-img{
+    border: 2px solid #FC3C3B;
+}
+
+.Hufflepuff-img{
+    border: 2px solid #F9E141;
+}
+
+.Ravenclaw-img{
+    border: 2px solid #0D43A7;
+}

@@ -1,0 +1,121 @@
+.container-calice {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    flex-direction: column;
+}
+
+.container-sorteio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-sorteio button{
+    margin-top: 150px;
+}
+
+.container-calice img{
+    width: 300px;
+    position: absolute;
+}
+
+
+.pergaminho-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: slidein 2s;
+}
+
+.pergaminho-container img{
+    position: absolute;
+    width: 340px;
+    animation: slidein 2s;
+}
+
+.pergaminho-container p{
+    z-index: 2;
+    font-size: 40px;
+    animation: text-size 2s;
+}
+
+@keyframes slidein {
+    0% {
+        transform: rotate3d(1, 2, -1, 90deg);
+        width: 20px;
+    }
+  
+    25% {
+        transform: rotate3d(1, 2, -1, 180deg);
+        width: 100px;
+    }
+
+    50% {
+        transform: rotate3d(1, 2, -1, 270deg);
+        width: 200px;
+    }
+
+    100% {
+        transform: rotate3d(1, 2, -1, 360deg);
+        width: 340px;
+    }
+  }
+
+  @media screen and (min-width: 642px) {
+    .container-calice img{
+        width: 400px;
+    }
+    .pergaminho-container img{
+        width: 500px;
+    }
+
+    .pergaminho-container p{
+        font-size: 60px;
+        animation: text-size 2s;
+    }
+
+    .pergaminho-container{
+        animation: slidein-d 2s;
+    }
+  }
+
+  @keyframes slidein-d {
+    0% {
+        transform: rotate3d(1, 2, -1, 90deg);
+        width: 80px;
+    }
+  
+    25% {
+        transform: rotate3d(1, 2, -1, 180deg);
+        width: 200px;
+    }
+
+    50% {
+        transform: rotate3d(1, 2, -1, 270deg);
+        width: 300px;
+    }
+
+    75%{
+        transform: rotate3d(1, 2, -1, 300deg);
+        width: 450px;
+    }
+
+    100% {
+        transform: rotate3d(1, 2, -1, 360deg);
+        width: 500px;
+    }
+  }
+
+
+  @keyframes text-size {
+    to {
+        font-size: 0px;
+    }
+  
+    from {
+        font-size: 0px;
+    }
+  }

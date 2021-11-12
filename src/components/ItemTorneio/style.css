@@ -1,0 +1,45 @@
+.container-item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.container-item h2, .container-item h3{
+    margin: 0px;
+}
+
+.container-item img{
+    margin-bottom: 20px;
+}
+
+.Slytherin{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.761);
+    padding: 6px 15px 6px 15px;
+    background-color: #00A421
+}
+
+.Gryffindor{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.761);
+    padding: 6px 15px 6px 15px;
+    background-color: #FC3C3B;
+}
+
+.Hufflepuff{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.761);
+    padding: 6px 15px 6px 15px;
+    background-color: #F9E141;
+}
+
+.Ravenclaw{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.761);
+    padding: 6px 15px 6px 15px;
+    background-color: #0D43A7;
+}
