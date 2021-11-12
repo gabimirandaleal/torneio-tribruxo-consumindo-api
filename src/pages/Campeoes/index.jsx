@@ -1,7 +1,7 @@
 import "./style.css"
-import ItemTorneio from "../ItemTorneio"
+import ItemTorneio from "../../components/ItemTorneio"
 
-function Torneio({ campeoesTribuxo, reset }) {
+function Campeoes({ campeoesTribuxo, reset }) {
     return (
         <div className="container-torneio">
             <h1 className="titulo-campeao">CAMPEÕES TRIBUXO</h1>
@@ -17,4 +17,4 @@ function Torneio({ campeoesTribuxo, reset }) {
     )
 }
 
-export default Torneio;
+export default Campeoes;

@@ -2,7 +2,7 @@ import "./style.css"
 import imagemCalice from "../../assets/img/calicedefogo.gif"
 import imagemPergaminho from "../../assets/img/pergaminho.png"
 
-function PaginaSorteio({ nome, changeValue, textButton, setAtual, students }) {
+function Sorteio({ nome, changeValue, textButton, setAtual, students }) {
     setAtual(Math.floor(Math.random() * (Math.ceil(students.length - 1) - Math.floor(1) + 0)) + Math.floor(0))
     return (
         <div className="container-sorteio container-menu">
@@ -20,4 +20,4 @@ function PaginaSorteio({ nome, changeValue, textButton, setAtual, students }) {
     )
 }
 
-export default PaginaSorteio
+export default Sorteio
