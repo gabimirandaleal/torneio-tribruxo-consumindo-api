@@ -10,8 +10,7 @@ function Sorteio({ nome, changeValue, textButton, setAtual, students }) {
                 <img src={imagemCalice} alt="" />
                 <div className="pergaminho-container">
                     <img src={imagemPergaminho} alt="" />
-                    <p>{nome}</p>
-
+                    <p>{nome.name}</p>
                 </div>
 
             </div>

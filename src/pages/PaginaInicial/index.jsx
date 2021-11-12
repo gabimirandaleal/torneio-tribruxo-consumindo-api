@@ -14,6 +14,7 @@ function PaginaInicial({ setAtual, students, sortearCalice }) {
                 <button onClick={sortearCalice}>Começar!</button>
             </div>
         </div >
+          
     )
 
 }
